@@ -32,6 +32,12 @@ gem 'pry-rails', group: :development
 
 gem 'slim'
 
+gem 'bootstrap_form'
+
+gem 'rest-client'
+
+gem 'foreman'
+
 group :production do
   gem 'rails_12factor'
 end

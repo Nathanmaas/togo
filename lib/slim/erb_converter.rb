@@ -1,0 +1,1 @@
+# Slim::ERBConverter.new(options).call(slim_code)

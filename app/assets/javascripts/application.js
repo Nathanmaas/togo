@@ -16,8 +16,8 @@
 //= require_tree .
 
 var markersArray = [];
-var SF_LAT = 37.7435841;
-var SF_LNG = -122.4897851;
+var SEA_LAT = 47.60621;
+var SEA_LNG = -122.44056;
 var QUERY_DELAY = 400;
 var inactive = false;
 
@@ -32,7 +32,7 @@ $(document).ready(function() {
 var initialize = function() {
   // Define some options for the map
   var mapOptions = {
-    center: new google.maps.LatLng(SF_LAT, SF_LNG),
+    center: new google.maps.LatLng(SEA_LAT, SEA_LNG),
     zoom: 12,
 
     // hide controls
@@ -172,7 +172,9 @@ var geocode_address = function(map, name, location_object) {
         animation: google.maps.Animation.DROP,
         map: map,
         position: results[0].geometry.location,
-        title: name
+        title: name,
+
+
       });
 
       // save the marker object so we can delete it later
