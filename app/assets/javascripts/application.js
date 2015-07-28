@@ -15,6 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
+
 var markersArray = [];
 var SEA_LAT = 47.60621;
 var SEA_LNG = -122.44056;

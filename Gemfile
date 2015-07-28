@@ -57,4 +57,4 @@ end
 
 
 # Yelp gem!
-gem 'yelp'
+gem 'yelp', require: 'yelp'
