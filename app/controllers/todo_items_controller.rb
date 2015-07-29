@@ -1,7 +1,7 @@
 class TodoItemsController < ApplicationController
 
   def index
-    @todo_items = TodoItems.all
+    @todo_items = TodoItem.all
   end
 
   def show
