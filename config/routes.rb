@@ -3,11 +3,9 @@ Rails.application.routes.draw do
   # homepage
 
   root 'home#index'
-  # post '/search' => 'home#search'
 
   # search
 
-  # post '/map' => 'maps#show'
   post '/search' => 'maps#search'
 
   # users
