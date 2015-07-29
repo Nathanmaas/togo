@@ -1,0 +1,6 @@
+<h1>Make a new LIST</h1>
+
+<%= bootstrap_form_for @todo_item do |f| %>
+  <%= f.text_field :content, placeholder: 'My interesting title' %>
+  <%= f.primary "Post" %>
+<% end %>

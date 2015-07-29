@@ -1,6 +1,23 @@
 Rails.application.routes.draw do
   root 'home#index'
-  post '/search' => 'home#search'
+  # post '/search' => 'home#search'
+  # get '/search' => 'home#result'
+
+  # get '/maps' => 'maps#search'
+  post '/search' => 'maps#search'
+
+  get 'signup' => 'users#new', as: :new_user
+  post 'signup' => 'users#create', as: :users
+
+  get 'login' => 'sessions#new'
+  post 'login' => 'sessions#create'
+  get 'logout' => 'sessions#destroy'
+
+
+  resources :todo_items
+
+  resources :maps
+
   # get '/search' => 'home#search' - for json - http://localhost:3000/search?term=weed
 
   # The priority is based upon order of creation: first created -> highest priority.
