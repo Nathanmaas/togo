@@ -1,0 +1,24 @@
+/*#home_contain {
+  text-align: center;
+}*/
+body {
+}
+
+.home_container{
+  background-image: url("spot.jpg");
+  height: 100%;
+  width: cover;
+}
+h1 {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 80px;
+  color: #F2F2EB;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  color: #F2F2EB;
+}
+

@@ -12,9 +12,9 @@ class TodoItemsController < ApplicationController
     @todo_item = TodoItem.new
   end
 
-  # def create
-  #   @todo = Todo.create
-  # end
+  def create
+    @todo_item = TodoItem.create
+  end
 
 
 
