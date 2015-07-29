@@ -14,6 +14,7 @@ class TodoItemsController < ApplicationController
 
   def create
     @todo_item = TodoItem.create
+    redirect_to
   end
 
 

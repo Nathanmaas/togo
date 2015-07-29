@@ -1,21 +1,35 @@
 Rails.application.routes.draw do
+
+  # homepage
+
   root 'home#index'
   # post '/search' => 'home#search'
+
+  # search
 
   # post '/map' => 'maps#show'
   post '/search' => 'maps#search'
 
+  # users
+
   get 'signup' => 'users#new', as: :new_user
   post 'signup' => 'users#create', as: :users
+
+  # authentication
 
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
   get 'logout' => 'sessions#destroy'
 
 
+  resources :maps
+
   resources :todo_items
 
-  resources :maps
+  # resources :users
+
+  # resources :authentication
+
 
   # get '/search' => 'home#search' - for json - http://localhost:3000/search?term=weed
 
