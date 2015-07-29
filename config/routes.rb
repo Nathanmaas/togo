@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   root 'home#index'
   # post '/search' => 'home#search'
-  # get '/search' => 'home#result'
 
-  # get '/maps' => 'maps#search'
+  # post '/map' => 'maps#show'
   post '/search' => 'maps#search'
 
   get 'signup' => 'users#new', as: :new_user
