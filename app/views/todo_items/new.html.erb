@@ -1,7 +1,14 @@
-<h1>Make a new LIST</h1>
 
+<div class="col-sm-offset-4 col-sm-4">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title">add a spot</h3>
+    </div>
+<div class="panel-body">
 <%= bootstrap_form_for @todo_item do |f| %>
   <%= f.text_field :place, placeholder: 'The coolest place' %>
   <%= f.text_field :link, placeholder: 'http://www.pikeplacemarket.org/' %>
-  <%= f.primary "Post" %>
+  <%= f.primary "add" %>
 <% end %>
+</div>
+</div>

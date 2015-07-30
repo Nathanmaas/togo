@@ -17,8 +17,10 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #EDF2EA;
-
+ /* background-image: url("spot.jpg");
+  height: 100%;
+  width: cover;*/
+  /*background-color: #EDF2EA;*/
   margin: 0;
   padding: 0;
 }

@@ -1,6 +1,9 @@
 <h1>Make a new LIST</h1>
 
-<%= bootstrap_form_for @todo_item do |b| %>
-  <%= b.text_field :content, placeholder: 'My interesting title' %>
-  <%= b.primary "Post" %>
+<%= bootstrap_form_for @todo_item do |f| %>
+  <%= f.text_field :place, placeholder: 'The coolest place' %>
+  <%= f.text_field :link, placeholder: 'http://www.pikeplacemarket.org/' %>
+  <%= f.primary "add" %>
+
 <% end %>
+
