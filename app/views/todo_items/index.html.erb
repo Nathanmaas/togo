@@ -3,11 +3,11 @@
   <tbody>
     <% @todo_items.each do |todo_item| %>
         <tr>
-          <td>place</td><td>link</td>
-         <td><a href="<%= todo_item.link %>"><%= todo_item.place %></a>
+          <!-- <td>place</td><td>link</td> -->
+         <td><a href="http://<%= todo_item.link %>" target="_blank"><%= todo_item.place %></a>
+          <%= link_to "", edit_todo_item_path(todo_item), class: 'glyphicon glyphicon-pencil', :data => {toggle: 'modal', target: '#myModal'} %>
+          <%= link_to "", todo_item, method:'delete', class: 'glyphicon glyphicon-trash' %>
           <% end %>
-         <!--  <= link_to edit_todo_item_path(todo_items), class: 'glyphicon glyphicon-pencil', :data => {toggle: 'modal', target: '#myModal'} %> -->
-        <!--   <= link_to "", todo_item, method:'delete', class: 'glyphicon glyphicon-trash' %> -->
   </tbody>
   </table>
 
@@ -26,7 +26,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">add</button>
+          <!-- <button type="button" class="btn btn-primary">add</button> -->
         </div>
       </div>
     </div>
