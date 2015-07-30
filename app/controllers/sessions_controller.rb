@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-    before_action :check_no_auth, except: [:destroy]
+    # before_action :check_no_auth, except: [:destroy]
 
   def new
   end
