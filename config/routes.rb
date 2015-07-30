@@ -24,7 +24,7 @@ Rails.application.routes.draw do
 
   resources :todo_items
 
-  resources :users, :only => [:show]
+  resources :users
 
   # resources :users
 

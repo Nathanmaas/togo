@@ -22,3 +22,17 @@ h3 {
   color: #F2F2EB;
 }
 
+#home_login {
+  text-align: center;
+  font-family: arial;
+  color: white;
+
+}
+
+.btn {
+   border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+}
+
+
