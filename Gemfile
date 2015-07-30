@@ -31,6 +31,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use pry for the console
 gem 'pry-rails', group: :development
 
+# Yelp gem!
+gem 'yelp', require: 'yelp'
+
 gem 'slim'
 
 gem 'bootstrap_form'
@@ -44,7 +47,7 @@ group :production do
 end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -56,5 +59,3 @@ end
 # gem 'debugger', group: [:development, :test]
 
 
-# Yelp gem!
-gem 'yelp', require: 'yelp'

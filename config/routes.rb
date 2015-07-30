@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   # search
 
-  post '/search' => 'maps#search'
+  post 'search' => 'maps#search'
 
   # users
 
@@ -23,6 +23,8 @@ Rails.application.routes.draw do
   resources :maps
 
   resources :todo_items
+
+  resources :users, :only => [:show]
 
   # resources :users
 

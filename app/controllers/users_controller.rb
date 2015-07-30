@@ -8,13 +8,13 @@ class UsersController < ApplicationController
 
   def create
     @user = User.create user_params
-    if @user.persisted?
-      flash[:success] = "You are signed up. Login below."
+    # if @user.persisted?
+    #   flash[:success] = "You are signed up. Login below."
       redirect_to login_path
-    else
-      flash[:danger] = @user.errors.full_messages.uniq.to_sentence
-      render :new
-    end
+    # else
+    #   flash[:danger] = @user.errors.full_messages.uniq.to_sentence
+    #   render :new
+    # end
   end
 
   private
