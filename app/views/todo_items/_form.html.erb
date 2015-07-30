@@ -1,8 +1,8 @@
 
-<%= bootstrap_form_for @todo_item do |f| %>
+<%= bootstrap_form_for :todo_item do |f| %>
   <%= f.text_field :place, placeholder: 'The coolest place' %>
   <%= f.text_field :link, placeholder: 'http://www.pikeplacemarket.org/' %>
-  <%= f.primary "add" %>
+<!--   <= f.primary "add" %> -->
 
 <% end %>
 
