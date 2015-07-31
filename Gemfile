@@ -51,6 +51,8 @@ end
 gem 'bcrypt', '~> 3.1.7'
 
 gem 'cloudinary'
+
+gem 'puma'
 # Use unicorn as the app server
 # gem 'unicorn'
 

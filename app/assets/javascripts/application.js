@@ -170,7 +170,7 @@ var geocode_address = function(map, name, location_object) {
 
       // create a marker and drop it on the name on the geocoded location
       var marker = new google.maps.Marker({
-        animation: google.maps.Animation.DROP,
+        animation: google.maps.Animation.BOUNCE,
         map: map,
         position: results[0].geometry.location,
         title: name,
