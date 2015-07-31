@@ -12,9 +12,19 @@ class UsersController < ApplicationController
       flash[:success] = "You are signed up. Login below."
       redirect_to login_path
     else
-      flash[:danger] = @user.errors.full_messages.uniq.to_sentence
+      flash[:danger] = "Invalid email or password"
       render :new
     end
+  end
+
+  def edit
+    @user = User.find(params[:id])
+  end
+
+  def update
+    @user = User.find(params[:id])
+    @user.update(user_params)
+    redirect_to todo_items_path
   end
 
   private
