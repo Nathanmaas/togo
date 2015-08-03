@@ -31,8 +31,7 @@ gem 'sdoc', '~> 0.4.0',
 # gem 'spring',        group: :development
 
 # Use pry for the console
-gem 'pry-rails',
-# group: :development
+gem 'pry-rails', group: :development
 
 # Yelp gem!
 gem 'yelp', require: 'yelp'
