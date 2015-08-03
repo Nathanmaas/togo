@@ -3,7 +3,7 @@ and make a bucket lists of those places for future reference.
 
 togo utilizes api's from google maps and yelp
 
-https://cloud.githubusercontent.com/assets/9797122/9048868/520f6176-39f1-11e5-9e4c-fec84ac7bc8c.png
+![Alt text](https://cloud.githubusercontent.com/assets/9797122/9048868/520f6176-39f1-11e5-9e4c-fec84ac7bc8c.png?raw=true "Landing Page")
 
 https://cloud.githubusercontent.com/assets/9797122/9048867/4f3d32f2-39f1-11e5-8f59-5a6459e61a68.png
 
