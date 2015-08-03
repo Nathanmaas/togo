@@ -7,7 +7,7 @@ togo utilizes api's from google maps and yelp
 
 ![Alt text](https://cloud.githubusercontent.com/assets/9797122/9048868/520f6176-39f1-11e5-9e4c-fec84ac7bc8c.png?raw=true)
 
-using togo you can search the city of Seattle for
+Using togo you can search the city of Seattle for
 basque food, the best african art museum, or a great
 place to grab a coffee - anything and anywhere you
 want togo.
