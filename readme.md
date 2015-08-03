@@ -1,5 +1,5 @@
 togo is your place to search for spots you want togo and
-and make a bucket list for future reference.
+and make a bucket list for future reference
 
 togo utilizes api's from google maps and yelp
 
@@ -10,7 +10,7 @@ togo utilizes api's from google maps and yelp
 Using togo you can search the city of Seattle for
 basque food, the best african art museum, or a great
 place to grab a coffee - anything and anywhere you
-want togo.
+want togo
 
 ![Alt text](https://cloud.githubusercontent.com/assets/9797122/9048873/569c1130-39f1-11e5-9177-b37b10989303.png?raw=true)
 
