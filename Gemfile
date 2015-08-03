@@ -6,7 +6,9 @@ ruby '2.2.2'
 gem 'rails'
 '4.1.0'
 
+group :production do
 gem 'pg'
+end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
