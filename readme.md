@@ -25,6 +25,7 @@ your private reviews with your friends so that
 your tribe can compare yelp reviews with more
 personal insight and detail
 
+https://togoapp.herokuapp.com/
 
 
 
