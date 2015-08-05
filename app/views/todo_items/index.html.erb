@@ -3,12 +3,13 @@
   <table class="table table-striped">
   <tbody>
     <% @todo_items.each do |todo_item| %>
+    <% if todo_item.user_id === @current_user.id %>
         <tr>
-          <!-- <td>place</td><td>link</td> -->
          <td><a href="<%= todo_item.link %>" target="_blank"><%= todo_item.place %></a>
           <%= link_to "", edit_todo_item_path(todo_item), class: 'glyphicon glyphicon-pencil', :data => {toggle: 'modal', target: '#myModal'} %>
           <%= link_to "", todo_item, method:'delete', class: 'glyphicon glyphicon-trash' %>
           <% end %>
+        <% end %>
   </tbody>
   </table>
 

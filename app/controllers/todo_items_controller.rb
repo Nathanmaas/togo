@@ -6,16 +6,10 @@ class TodoItemsController < ApplicationController
   end
 
   def create
-      @todo_item = TodoItem.create todo_params
+      user = current_user
+      @todo_item = user.todo_items.create todo_params
       redirect_to todo_items_path
 
-    # @todo_item = current_user.todo_item.create todo_params
-    # if todo_item.persisted?
-    #   flash[:success] = "Your link has been posted."
-    #   redirect_to todo_items_path
-    # else
-    #   flash[:danger] = "There was an erroer."
-    #   redirect_to edit_todo_item_path
   end
 
   def new
@@ -51,5 +45,4 @@ class TodoItemsController < ApplicationController
   def todo_params
     params.require(:todo_item).permit(:place, :link)
   end
-
 end
