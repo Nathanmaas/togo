@@ -5,13 +5,13 @@ body {
 }
 
 .home_container{
-  background-image: url(http://res.cloudinary.com/dg5jcmuly/image/upload/c_scale,h_1100/v1438222955/spot_f64lfw.jpg);
+  background-image: url(http://res.cloudinary.com/dg5jcmuly/image/upload/c_scale,h_1200/v1438222955/spot_f64lfw.jpg);
   height: 100%;
   width: cover;
 }
 h1 {
   text-align: center;
-  padding-top: 150px;
+  padding-top: 250px;
   font-size: 80px;
   color: #F2F2EB;
 }
