@@ -5,7 +5,7 @@ body {
 }
 
 .home_container{
-  background-image: url(http://res.cloudinary.com/dg5jcmuly/image/upload/v1438222955/spot_f64lfw.jpg);
+  background-image: url(http://res.cloudinary.com/dg5jcmuly/image/upload/c_scale,h_1400/v1438222955/spot_f64lfw.jpg);
   height: 100%;
   width: cover;
 }
